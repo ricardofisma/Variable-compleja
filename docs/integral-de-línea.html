@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Integral de Línea | Variable compleja</title>
+  <meta name="description" content="Una descripcion sobre variable compleja" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Integral de Línea | Variable compleja" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Una descripcion sobre variable compleja" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Integral de Línea | Variable compleja" />
+  
+  <meta name="twitter:description" content="Una descripcion sobre variable compleja" />
+  
+
+<meta name="author" content="MALLQUI BAÑOS Ricardo Michel" />
+
+
+<meta name="date" content="2020-03-06" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="aplicaciones-conformes.html"/>
+<link rel="next" href="funciones-holomorfas.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Números complejos</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#el-álgebra-de-los-números-complejos"><i class="fa fa-check"></i><b>1.1</b> El álgebra de los números complejos</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#el-plano-extendido"><i class="fa fa-check"></i><b>1.2</b> El plano extendido</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#ejercicios"><i class="fa fa-check"></i><b>1.3</b> Ejercicios</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="teoría-de-funciones-mathbbc-diferenciables.html"><a href="teoría-de-funciones-mathbbc-diferenciables.html"><i class="fa fa-check"></i><b>2</b> Teoría de funciones <span class="math inline">\(\mathbb{C}\)</span>-diferenciables</a><ul>
+<li class="chapter" data-level="2.1" data-path="teoría-de-funciones-mathbbc-diferenciables.html"><a href="teoría-de-funciones-mathbbc-diferenciables.html#introduccion"><i class="fa fa-check"></i><b>2.1</b> Introduccion</a></li>
+<li class="chapter" data-level="2.2" data-path="teoría-de-funciones-mathbbc-diferenciables.html"><a href="teoría-de-funciones-mathbbc-diferenciables.html#funciones-c-diferenciables-y-holomorfas"><i class="fa fa-check"></i><b>2.2</b> Funciones C-diferenciables y holomorfas</a></li>
+<li class="chapter" data-level="2.3" data-path="teoría-de-funciones-mathbbc-diferenciables.html"><a href="teoría-de-funciones-mathbbc-diferenciables.html#series-de-potencias-y-funciones-holomorfas"><i class="fa fa-check"></i><b>2.3</b> Series de Potencias y funciones holomorfas</a></li>
+<li class="chapter" data-level="2.4" data-path="teoría-de-funciones-mathbbc-diferenciables.html"><a href="teoría-de-funciones-mathbbc-diferenciables.html#ejercicios-1"><i class="fa fa-check"></i><b>2.4</b> Ejercicios</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>3</b> Literature</a><ul>
+<li class="chapter" data-level="3.1" data-path="literature.html"><a href="literature.html#potencias-y-raíces"><i class="fa fa-check"></i><b>3.1</b> Potencias y raíces</a></li>
+<li class="chapter" data-level="3.2" data-path="literature.html"><a href="literature.html#la-fórmula-de-euler"><i class="fa fa-check"></i><b>3.2</b> La fórmula de Euler</a></li>
+<li class="chapter" data-level="3.3" data-path="literature.html"><a href="literature.html#las-funciones-exponencial-y-logaritmo"><i class="fa fa-check"></i><b>3.3</b> Las funciones exponencial y logaritmo</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="literature.html"><a href="literature.html#la-función-exponencial"><i class="fa fa-check"></i><b>3.3.1</b> La función exponencial</a></li>
+<li class="chapter" data-level="3.3.2" data-path="literature.html"><a href="literature.html#la-función-logaritmo"><i class="fa fa-check"></i><b>3.3.2</b> La función Logaritmo</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="literature.html"><a href="literature.html#las-fuciones-trigonométricas"><i class="fa fa-check"></i><b>3.4</b> Las fuciones trigonométricas</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="aplicaciones-conformes.html"><a href="aplicaciones-conformes.html"><i class="fa fa-check"></i><b>4</b> Aplicaciones Conformes</a><ul>
+<li class="chapter" data-level="4.1" data-path="aplicaciones-conformes.html"><a href="aplicaciones-conformes.html#introducción"><i class="fa fa-check"></i><b>4.1</b> Introducción</a></li>
+<li class="chapter" data-level="4.2" data-path="aplicaciones-conformes.html"><a href="aplicaciones-conformes.html#aplicaciones-conformes-1"><i class="fa fa-check"></i><b>4.2</b> Aplicaciones Conformes</a></li>
+<li class="chapter" data-level="4.3" data-path="aplicaciones-conformes.html"><a href="aplicaciones-conformes.html#transformaciones-de-mobius"><i class="fa fa-check"></i><b>4.3</b> Transformaciones de M¨obius</a></li>
+<li class="chapter" data-level="4.4" data-path="aplicaciones-conformes.html"><a href="aplicaciones-conformes.html#simetría"><i class="fa fa-check"></i><b>4.4</b> Simetría</a></li>
+<li class="chapter" data-level="4.5" data-path="aplicaciones-conformes.html"><a href="aplicaciones-conformes.html#ejercicios-2"><i class="fa fa-check"></i><b>4.5</b> Ejercicios</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="integral-de-línea.html"><a href="integral-de-línea.html"><i class="fa fa-check"></i><b>5</b> Integral de Línea</a><ul>
+<li class="chapter" data-level="5.1" data-path="integral-de-línea.html"><a href="integral-de-línea.html#integracion-compleja"><i class="fa fa-check"></i><b>5.1</b> Integracion Compleja</a></li>
+<li class="chapter" data-level="5.2" data-path="integral-de-línea.html"><a href="integral-de-línea.html#el-teorema-de-cauchy"><i class="fa fa-check"></i><b>5.2</b> El Teorema de Cauchy</a></li>
+<li class="chapter" data-level="5.3" data-path="integral-de-línea.html"><a href="integral-de-línea.html#ejercicios-3"><i class="fa fa-check"></i><b>5.3</b> Ejercicios</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="funciones-holomorfas.html"><a href="funciones-holomorfas.html"><i class="fa fa-check"></i><b>6</b> Funciones holomorfas</a></li>
+<li class="chapter" data-level="7" data-path="homotopía-y-el-teorema-de-cauchy.html"><a href="homotopía-y-el-teorema-de-cauchy.html"><i class="fa fa-check"></i><b>7</b> Homotopía y el Teorema de Cauchy</a></li>
+<li class="chapter" data-level="8" data-path="el-indice-de-una-curva.html"><a href="el-indice-de-una-curva.html"><i class="fa fa-check"></i><b>8</b> El Indice de una curva</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Variable compleja</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="integral-de-línea" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> Integral de Línea</h1>
+<div id="integracion-compleja" class="section level2">
+<h2><span class="header-section-number">5.1</span> Integracion Compleja</h2>
+</div>
+<div id="el-teorema-de-cauchy" class="section level2">
+<h2><span class="header-section-number">5.2</span> El Teorema de Cauchy</h2>
+</div>
+<div id="ejercicios-3" class="section level2">
+<h2><span class="header-section-number">5.3</span> Ejercicios</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="aplicaciones-conformes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="funciones-holomorfas.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "sepia",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Variable-compleja.pdf", "Variable-compleja.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
