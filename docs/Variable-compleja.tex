@@ -73,6 +73,22 @@
 \author{MALLQUI BAÑOS Ricardo Michel}
 \date{2020-03-06}
 
+\usepackage{amsthm}
+\newtheorem{theorem}{Teorema}[chapter]
+\newtheorem{lemma}{Lema}[chapter]
+\newtheorem{corollary}{Corolario}[chapter]
+\newtheorem{proposition}{Proposición}[chapter]
+\newtheorem{conjecture}{Conjectura}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definición}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Ejemplo}[chapter]
+\theoremstyle{definition}
+\newtheorem{exercise}{Ejercicio}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Observación}
+\newtheorem*{solution}{Solución}
+\let\BeginKnitrBlock\begin \let\EndKnitrBlock\end
 \begin{document}
 \maketitle
 
@@ -83,8 +99,14 @@
 \hypertarget{nuxfameros-complejos}{%
 \chapter{Números complejos}\label{nuxfameros-complejos}}
 
+Los números complejos son de importancia en el campo de las matemáticas y el desarollo de campos un poco mas elavorados
+
 \hypertarget{el-uxe1lgebra-de-los-nuxfameros-complejos}{%
 \section{El álgebra de los números complejos}\label{el-uxe1lgebra-de-los-nuxfameros-complejos}}
+
+\BeginKnitrBlock{definition}[Número complejo]
+\protect\hypertarget{def:unnamed-chunk-1}{}{\label{def:unnamed-chunk-1} \iffalse (Número complejo) \fi{} }Un número complejo es una expresión de la forma \(a+bi\) donde \(a\) y \(b\) son números reales
+\EndKnitrBlock{definition}
 
 \hypertarget{el-plano-extendido}{%
 \section{El plano extendido}\label{el-plano-extendido}}

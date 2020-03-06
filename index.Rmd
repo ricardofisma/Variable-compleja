@@ -11,8 +11,14 @@ description: "Una descripcion sobre variable compleja"
 ---
 
 # Números complejos
+Los números complejos son  de importancia en el campo de las matemáticas y el desarollo de campos un poco mas elavorados
+
 
 ## El álgebra de los números complejos
+
+```{definition,name="Número complejo"}
+Un número complejo es una expresión de la forma $a+bi$ donde $a$ y $b$ son números reales
+```
   
 ## El plano extendido
 
