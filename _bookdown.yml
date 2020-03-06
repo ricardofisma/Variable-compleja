@@ -15,7 +15,7 @@ language:
     def: 'Definición '
     exm: 'Ejemplo '
     exr: 'Ejercicio '
-    proof: 'Demostracion. '
+    proof: 'Demostración. '
     remark: 'Observación. '
     solution: 'Solución. '
   ui:

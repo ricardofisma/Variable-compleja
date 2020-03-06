@@ -11,7 +11,7 @@ description: "Una descripcion sobre variable compleja"
 ---
 
 # Números complejos
-Los números complejos son  de importancia en el campo de las matemáticas y el desarollo de campos un poco mas elavorados
+Los números complejos son  de importancia en el campo de las matemáticas y el desarollo de campos un poco más elavorados
 
 
 ## El álgebra de los números complejos
@@ -20,6 +20,18 @@ Los números complejos son  de importancia en el campo de las matemáticas y el 
 Un número complejo es una expresión de la forma $a+bi$ donde $a$ y $b$ son números reales
 ```
   
+```{theorem}
+Sea $\epsilon$
+```
+```{proof}
+En efecto dado $a>b$ entonces
+```
 ## El plano extendido
 
 ## Ejercicios
+
+```{exercise}
+```
+
+```{solution}
+```
