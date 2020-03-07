@@ -13,7 +13,9 @@ description: "Una descripción sobre variable compleja"
 # Números complejos
 Los números complejos son  de importancia en el campo de las matemáticas y el desarollo de campos un poco más elavorados
 
-Leonhard Euler en 1777 le dió el nombre a $\sqrt{-1}$ el nombre de $i$ (imaginario)
+Leonhard Euler en 1777 le dió el nombre a $\sqrt{-1}$ el nombre de $i$ (imaginario) 
+
+
 ## El álgebra de los números complejos
 
 ```{definition,name="Número complejo"}
